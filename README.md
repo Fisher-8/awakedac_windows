@@ -1,2 +1,5 @@
-# awakedac_windows
-Prevents the DAC from entering standby mode
+DAC 으로 음원 재생 시 대기 모드에서 활성으로 전환할 때 발생하는 0.5~1초 가량의 음원 미재생 현상을 방지하기 위해
+NAudio 라이브러리를 통해 볼륨 0 의 음원을 생성하고, WASAPI 공유 모드로 장치를 초기화해서 계속 재생
+
+NAudio 라이브러리는 실행 파일 내 포함되었으며, 트레이 아이콘에서 닫기 조작 가능
+Google Gemini 이 코드의 대부분을 작성했으며, 저는 목적 설정과 조합만 했습니다.
